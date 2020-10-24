@@ -50,6 +50,7 @@
 		BC7142F625440F5C003CCD16 = {
 			isa = PBXGroup;
 			children = (
+				BC71434525441DC0003CCD16 /* TestRepKit */,
 				BC71430125440F5C003CCD16 /* testProject */,
 				BC71430025440F5C003CCD16 /* Products */,
 			);
@@ -73,15 +74,22 @@
 				BC71430825440F5C003CCD16 /* ViewController.h */,
 				BC71430925440F5C003CCD16 /* ViewController.m */,
 				BC71430B25440F5C003CCD16 /* Main.storyboard */,
-				BC71431B25441152003CCD16 /* MJAViewController.h */,
-				BC71431C25441152003CCD16 /* MJAViewController.m */,
-				BC71431D25441152003CCD16 /* MJAViewController.xib */,
 				BC71430E25440F60003CCD16 /* Assets.xcassets */,
 				BC71431025440F60003CCD16 /* LaunchScreen.storyboard */,
 				BC71431325440F60003CCD16 /* Info.plist */,
 				BC71431425440F60003CCD16 /* main.m */,
 			);
 			path = testProject;
+			sourceTree = "<group>";
+		};
+		BC71434525441DC0003CCD16 /* TestRepKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC71431B25441152003CCD16 /* MJAViewController.h */,
+				BC71431C25441152003CCD16 /* MJAViewController.m */,
+				BC71431D25441152003CCD16 /* MJAViewController.xib */,
+			);
+			path = TestRepKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
