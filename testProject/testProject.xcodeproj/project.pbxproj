@@ -14,6 +14,8 @@
 		BC71430F25440F60003CCD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC71430E25440F60003CCD16 /* Assets.xcassets */; };
 		BC71431225440F60003CCD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC71431025440F60003CCD16 /* LaunchScreen.storyboard */; };
 		BC71431525440F60003CCD16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71431425440F60003CCD16 /* main.m */; };
+		BC71431E25441152003CCD16 /* MJAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71431C25441152003CCD16 /* MJAViewController.m */; };
+		BC71431F25441152003CCD16 /* MJAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC71431D25441152003CCD16 /* MJAViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		BC71431125440F60003CCD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC71431325440F60003CCD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC71431425440F60003CCD16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC71431B25441152003CCD16 /* MJAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAViewController.h; sourceTree = "<group>"; };
+		BC71431C25441152003CCD16 /* MJAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAViewController.m; sourceTree = "<group>"; };
+		BC71431D25441152003CCD16 /* MJAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MJAViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,9 @@
 				BC71430825440F5C003CCD16 /* ViewController.h */,
 				BC71430925440F5C003CCD16 /* ViewController.m */,
 				BC71430B25440F5C003CCD16 /* Main.storyboard */,
+				BC71431B25441152003CCD16 /* MJAViewController.h */,
+				BC71431C25441152003CCD16 /* MJAViewController.m */,
+				BC71431D25441152003CCD16 /* MJAViewController.xib */,
 				BC71430E25440F60003CCD16 /* Assets.xcassets */,
 				BC71431025440F60003CCD16 /* LaunchScreen.storyboard */,
 				BC71431325440F60003CCD16 /* Info.plist */,
@@ -134,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC71431225440F60003CCD16 /* LaunchScreen.storyboard in Resources */,
+				BC71431F25441152003CCD16 /* MJAViewController.xib in Resources */,
 				BC71430F25440F60003CCD16 /* Assets.xcassets in Resources */,
 				BC71430D25440F5C003CCD16 /* Main.storyboard in Resources */,
 			);
@@ -147,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC71430A25440F5C003CCD16 /* ViewController.m in Sources */,
+				BC71431E25441152003CCD16 /* MJAViewController.m in Sources */,
 				BC71430425440F5C003CCD16 /* AppDelegate.m in Sources */,
 				BC71431525440F60003CCD16 /* main.m in Sources */,
 				BC71430725440F5C003CCD16 /* SceneDelegate.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MJAViewController.h
 //  testProject
 //
 //  Created by maji on 2020/10/24.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
+@interface MJAViewController : UIViewController
+
 @end
 
+NS_ASSUME_NONNULL_END

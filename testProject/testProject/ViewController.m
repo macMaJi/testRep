@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MJAViewController.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)btnDidAction:(UIButton *)sender {
+    MJAViewController *vc = [MJAViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end
