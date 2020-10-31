@@ -16,6 +16,7 @@
 		BC71431525440F60003CCD16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71431425440F60003CCD16 /* main.m */; };
 		BC71431E25441152003CCD16 /* MJAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71431C25441152003CCD16 /* MJAViewController.m */; };
 		BC71431F25441152003CCD16 /* MJAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC71431D25441152003CCD16 /* MJAViewController.xib */; };
+		BC7CBA93254D162800BDA9B2 /* MJLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CBA92254D162800BDA9B2 /* MJLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		BC71431B25441152003CCD16 /* MJAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAViewController.h; sourceTree = "<group>"; };
 		BC71431C25441152003CCD16 /* MJAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAViewController.m; sourceTree = "<group>"; };
 		BC71431D25441152003CCD16 /* MJAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MJAViewController.xib; sourceTree = "<group>"; };
+		BC7CBA91254D162800BDA9B2 /* MJLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJLog.h; sourceTree = "<group>"; };
+		BC7CBA92254D162800BDA9B2 /* MJLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				BC71431B25441152003CCD16 /* MJAViewController.h */,
 				BC71431C25441152003CCD16 /* MJAViewController.m */,
 				BC71431D25441152003CCD16 /* MJAViewController.xib */,
+				BC7CBA91254D162800BDA9B2 /* MJLog.h */,
+				BC7CBA92254D162800BDA9B2 /* MJLog.m */,
 			);
 			path = testRep;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				BC71430A25440F5C003CCD16 /* ViewController.m in Sources */,
 				BC71431E25441152003CCD16 /* MJAViewController.m in Sources */,
 				BC71430425440F5C003CCD16 /* AppDelegate.m in Sources */,
+				BC7CBA93254D162800BDA9B2 /* MJLog.m in Sources */,
 				BC71431525440F60003CCD16 /* main.m in Sources */,
 				BC71430725440F5C003CCD16 /* SceneDelegate.m in Sources */,
 			);
